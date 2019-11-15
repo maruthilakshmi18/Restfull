@@ -10,8 +10,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 plugin= {"pretty", "html:target/cucumber-RestReports"},
 strict=true,
-features = "src/test/java/Feature/Oauth.feature",
-tags= {"@get"},
+features = "src/test/java/Feature/ExternInput.feature",
+tags= {"@staticjsonn"},
 glue= {"seleniumrest"},
 monochrome=true,
 dryRun=false

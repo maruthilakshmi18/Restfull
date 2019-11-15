@@ -6,7 +6,7 @@ Verify the weather of the city and complete get call status and response
 	Then I should validate the response status code and body message 
 	
 	
-@post
+@post 
 Scenario:
 Verify to add the account in registration page using post call and response 
 	Given I execute post call to register the account in registration page and I should validate the response status code and body 
